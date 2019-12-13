@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.modal-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-small-icon {
+    width: 50px;
+    height: 50px;
+    margin: .5vw 1.5vw .5vw 1.5vw;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-small-icon:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 .2vw .5vw rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.modal-text {
+    font-family: 'Gills Sans', sans-serif;
+}
+
+.img-modal {
+    padding: 1px;
+    border: 2px solid #17448c;
+    background-color: rgb(77, 90, 186);
+    box-shadow: 0 .2vw .5vw rgba(0, 0, 0, 0.5);
+    border-style: groove;
+    border-radius: 2%;
+}
+
+#logo-name {
+    font-family: 'Cedarville Cursive', cursive;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(245, 239, 239);
+    border-bottom-style: dotted;
+
+}
+
+#icon-emoji {
+    margin-right: 20px;
+    margin-bottom: 15px
+}
+
+#hi,
+#name,
+#im {
+    font-family: "Heebo", sans-serif;
+    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Vibur', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hrLine {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.hrLine span {
+    display: inline-block;
+    position: relative;
+}
+
+.hrLine span:before,
+.hrLine span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 50%;
+    width: 300px;
+}
+
+.hrLine span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.hrLine span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+#hi,
+#im {
+    font-size: 70px;
+    font-style: italic;
+}
+
+#name {
+    padding-top: 80px;
+    letter-spacing: 5px;
+    font-size: 130px;
+}
+
+.personal_text {
+    text-align: center;
+}
+
+#resume:hover {
+    color: rgb(142, 209, 233);
+}
+
+.typeWriter {
+    padding-bottom: 20px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#skillSet {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.small-icon-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 45px;
+}
+
+.small-icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 .25vw .5vw 0;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    border-style: solid;
+    opacity: 0.3;
+    border-color: rgb(220, 218, 218);
+    border-width: 5px;
+}
+
+.small-icon:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 .2vw .5vw rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: .5;
+}
+
+/* LightBox Text */
+.slbContentOuter {
+    display: none;
+}
