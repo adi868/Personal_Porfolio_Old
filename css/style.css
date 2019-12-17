@@ -887,7 +887,7 @@ a.hover:hover:before {
 }
 
 .personal_text .personal_social li:hover a {
-  background-color: rgb(147, 242, 255);
+  background-color: rgb(198, 245, 250);
   -webkit-transition: background-color 500ms linear;
   -ms-transition: background-color 500ms linear;
   transition: background-color 500ms linear;
