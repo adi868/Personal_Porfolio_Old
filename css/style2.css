@@ -122,7 +122,7 @@ html {
 
 .small-icon-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     padding-top: 45px;
@@ -130,7 +130,7 @@ html {
 
 .small-icon {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 8vw;
     height: 8vw;
     margin: 0 .25vw .5vw 0;
