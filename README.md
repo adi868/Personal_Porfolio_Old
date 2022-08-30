@@ -1,2 +1,4 @@
 # My Personal Portfolio
-This is my updated personal portfolio website! Check it out to learn a little more about me, my projects, and my background.
+This is an older version of my personal portfolio website. 
+
+For the latest version, please visit http://www.acianciotto.com.
